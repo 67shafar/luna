@@ -64,3 +64,39 @@ article {
 	font-size: .84rem;
 	line-height: 1.5rem;
 }
+
+.article-continue {
+	display: inline-block;
+    font-weight: 700;
+	font-size: .76rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	color: #f8c268;
+	font-family: "Play Fair"
+}
+
+.author-name {
+	display: inline-block;
+	font-size: .78rem;
+	color: #a6a6a6;
+	font-weight: 700;
+	font-style: italic;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+
+}
+
+.comment-num {
+	display: inline-block;
+	font-size: .67rem;
+	color: #a6a6a6;
+	font-weight: 400;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.social-mini {
+
+	margin-top: 1.1rem;
+	margin-bottom: 1.1rem;
+}
