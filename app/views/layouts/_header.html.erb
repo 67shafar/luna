@@ -1,0 +1,67 @@
+<div class="row">
+  <div class="hr hr-top"></div>
+  <div class="hr hr-bottom" ></div>
+
+  <nav class="top-bar" data-topbar role="navigation">
+
+    <ul class="title-area">
+      <li class="name">
+        <%= image_tag("logo.png", class: "logo-small") %>
+      </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li class="has-form"> 
+          <div class="row collapse"> 
+              <div class="large-11 small-11 columns"> 
+                  <input class="search-input" type="text" placeholder="Search">     
+              </div> 
+              <div class="large-1 small-1 columns"> 
+                  <a href="#"> <%= image_tag("search2.png", class: "search-button") %></a>
+              </div> 
+          </div> 
+        </li>
+      </ul>
+
+      <!-- Left Nav Section -->
+      <ul class="left">
+        <li><a href="#">HOME</a></li>
+        <li class="bullet-li"><%= image_tag("bullet.png", class: "bullet") %></li>
+        <li><a href="#">PAGES</a></li>
+        <li class="bullet-li"><%= image_tag("bullet.png", class: "bullet") %></li>
+        <li><a href="#">LIFE STYLE</a></li>
+        <li class="bullet-li"><%= image_tag("bullet.png", class: "bullet") %></li>
+        <li><a href="#">FASHION</a></li>
+        <li class="bullet-li"><%= image_tag("bullet.png", class: "bullet") %></li>
+        <li><a href="#">ABOUT ME</a></li>
+        <li class="bullet-li"><%= image_tag("bullet.png", class: "bullet") %></li>
+        <li><a href="#">CONTACT ME</a></li>
+        <li class="bullet-li"><%= image_tag("bullet.png", class: "bullet") %></li>
+        <li><a href="#">FEATURES</a></li>
+      </ul>
+    </section>
+  </nav>
+  <div class="hr"></div>
+  <div class="hr hr-bottom" ></div>
+</div>
+
+<header id="header">
+  <div class="row">
+
+     <div class="large-12 column" >
+        <%= image_tag("logo.png", class: "logo-large") %>
+     </div>
+
+     <div class="large-12 column" >
+      <%= image_tag("social.png", class: "social-large") %>
+     </div>
+     <div class="large-12 no-padding column" >
+        <div class="hr hr-top "> </div>
+     </div>
+
+    </div>
+</header>
