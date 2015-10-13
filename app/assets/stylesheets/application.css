@@ -1,0 +1,180 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require foundation_and_overrides
+
+ */
+
+/** START - menu bar horizontal line settings**/
+.hr{
+	margin: 0rem;
+	height: 0.063rem;
+	background-color: #dedede;
+}
+
+.hr-top {
+	margin-top: .2rem;
+}
+
+.hr-bottom {
+	margin-top: 0.32rem;
+}
+/** END- menu bar horizontal line settings**/
+
+/** START - customize top bar coloring and size**/
+
+.top-bar-section ul li > a:hover { 
+
+	 
+}
+/** END - customize top bar coloring and size**/
+
+/** START - customize search bar **/
+
+.search-input {
+
+	background-color: #ffffff !important;
+	border-color: #ffffff !important;
+	box-shadow: none !important;
+
+}
+
+.search-input:focus {
+	border-style: solid !important;
+	border-bottom-color: #f8c268 !important;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #c1c1c1;
+    font-style: italic !important;
+    font-weight: 400 !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #c1c1c1;
+   font-style: italic !important;
+   font-weight: 400 !important;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #c1c1c1;
+   font-style: italic !important;
+   font-weight: 400 !important;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #c1c1c1;
+   font-style: italic !important;
+   font-weight: 400 !important;
+}
+
+.search-button {
+	width:12px;
+	height: 12px;
+	margin:; 0px;
+}
+
+.bullet {
+	height: 0px;
+	width: 0px;
+	visibility: hidden;
+}
+
+.bullet-li {
+	height: 0px;
+	width: 0px;
+	visibility: hidden;
+}
+
+.logo-large {
+		width: 109px;
+		height: 69px;
+		padding: 0px;
+		margin: 10px;
+		border: none;
+		visibility: visible;
+}
+
+.logo-small {
+		width: 47px;
+		height: 30px;
+		padding: 0px;
+		margin: 10px;
+		border: none;
+		visibility: visible;
+}
+
+#header {
+	text-align: center;
+}
+
+@media screen and (min-width: 48.063rem) {
+	
+	.search-button {
+		width:15px;
+		height: 15px;	
+		margin-top: 0.8rem;
+		padding: 0px;
+
+	}
+
+	.bullet {
+		width: 8px;
+		height: 8px;
+		padding: 0px;
+		visibility: visible;
+	}
+
+	.bullet-li{
+		width: 8px;
+		height: 8px;
+		margin-top: 0.5rem;
+		padding: 0px;
+		visibility: visible;
+	}
+
+	.top-bar-section ul li:not(.has-form) a:not(.button){
+		padding-left: 0rem .3rem !important;
+		font-size: .69rem !important;
+	}
+
+	.logo-small {
+		width: 0px;
+		height: 0px;
+		padding: 0px;
+		margin: 0px;
+		border: none;
+		visibility: hidden;
+	}
+
+	.hr-top {
+		margin-top: 1.85rem;
+	}	
+
+	.logo-large {
+			width: 109px;
+			height: 69px;
+			padding: 0px;
+			margin-top: 50px;
+			margin-bottom: 30px;
+			border: none;
+			visibility: visible;
+	}
+
+	.no-padding {
+		padding:0px;
+	}
+
+}
+
+/** END - customize search bar **/
