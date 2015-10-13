@@ -1,28 +1,24 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version - 2.2
 
-Things you may want to cover:
+ This website was based off of the Luna theme PSD by Sunrise Themes. 
+ Ruby on rails is overkill for this website because it is mostly static. 
 
-* Ruby version
+ I built this to show my ability to create responsive web pages from PSD files.
+ The major concern here was the flow of the layout. Luna did not come with a 
+ mobile design so I had to play with the design in that regard. Since foundation
+ is a mobile first framework, this made creating converting luna to html/css a
+ little awkward. But I managed to create somthing which I think followd the
+ design rather well. 
 
-* System dependencies
+ In the future I will clean up the scss by making better use of sass's features.
+ Currently the scss is mostly css.
 
-* Configuration
+ I also plan to use tools such as masonry allow the articles to come together
+ without gaps when there is variation in their size. Foundation supports the use
+ of masonry with their grid-blocks class.
 
-* Database creation
+ I also plan to build a back end for this site in the future.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+ To view the origninal PSD see 01-home.psd in the root directory of this project. 
